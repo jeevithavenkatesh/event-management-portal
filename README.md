@@ -2,7 +2,7 @@
 
 ## Intern Information
 
-* Intern ID: 
+* Intern ID: CITS3015
 * Full Name: jeevitha . v
 * No. of Weeks: 4
 * Project Name: Event Management Portal
