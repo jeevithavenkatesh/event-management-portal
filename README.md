@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+# Event Management Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Intern Information
 
-## Available Scripts
+* Intern ID: 
+* Full Name: jeevitha . v
+* No. of Weeks: 4
+* Project Name: Event Management Portal
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Project Scope
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Event Management Portal is a full-stack web application developed using React.js, Node.js, Express.js, and MongoDB. It enables users to register, log in, view available events, and register for events. Administrators can manage events through CRUD operations and monitor registrations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### User Features
 
-### `npm run build`
+* User Registration
+* User Login
+* View Events
+* Event Registration
+* View Registered Events
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Admin Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Add Events
+* View Events
+* Delete Events
+* Manage Event Information
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Frontend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* React.js
+* React Router DOM
+* Bootstrap
+* Axios
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Backend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Node.js
+* Express.js
 
-## Learn More
+### Database
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* MongoDB
+* Mongoose
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Tools
 
-### Code Splitting
+* VS Code
+* Git
+* GitHub
+* Thunder Client / Postman
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Event-Management-Portal/
 
-### Making a Progressive Web App
+├── client/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+├── server/
 
-### Advanced Configuration
+├── screenshots/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+├── output-images/
 
-### Deployment
+├── documentation/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+├── README.md
 
-### `npm run build` fails to minify
+└── .gitignore
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Installation
+
+### Backend
+
+```bash
+cd server
+npm install
+npm start
+```
+
+### Frontend
+
+```bash
+cd client
+npm install
+npm start
+```
+
+---
+
+## API Endpoints
+
+### Authentication
+
+* POST /api/auth/register
+* POST /api/auth/login
+
+### Events
+
+* GET /api/events
+* POST /api/events
+* DELETE /api/events/:id
+
+---
+
+---
+
+## Output Images
+
+Output images are available in the `output-images` folder.
+
+---
+
+---
+
+## Future Enhancements
+
+* Event Registration Tracking
+* Admin Dashboard Analytics
+* Email Notifications
+* Event Search and Filtering
+* User Profile Management
+
+---
+
+
+Intern ID: [YOUR INTERN ID]
